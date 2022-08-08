@@ -34,6 +34,7 @@ RESPONISVE SCREEN - medium screen size
 <img width="909" alt="Screenshot 2022-08-09 at 4 25 35 AM" src="https://user-images.githubusercontent.com/39455997/183529637-dd344072-7dd7-4a00-828f-c88715f9ac16.png">
 
 RESPONISVE SCREEN - small screen size
+
 <img width="494" alt="Screenshot 2022-08-09 at 4 25 56 AM" src="https://user-images.githubusercontent.com/39455997/183529701-a34632e4-b622-49fb-87d0-6310a771d192.png">
 
 DRAG AND DROP - appending stories at the end of the list
@@ -46,9 +47,11 @@ SCROLL FUNCTIONALITY
 <img width="1440" alt="Screenshot 2022-08-09 at 4 27 28 AM" src="https://user-images.githubusercontent.com/39455997/183529951-23d7157e-4d52-46d6-b942-2f953e049a5a.png">
 
 ADD STORY OPTION
+
 <img width="333" alt="Screenshot 2022-08-09 at 4 28 13 AM" src="https://user-images.githubusercontent.com/39455997/183530000-4b4ef6a0-307c-4a3d-9e93-bad508b60f39.png">
 
 REMOVE STORY OPTION
+
 <img width="329" alt="Screenshot 2022-08-09 at 4 28 21 AM" src="https://user-images.githubusercontent.com/39455997/183530037-cac52e91-b182-4655-b875-1f9bb6ee1b7c.png">
 
 
