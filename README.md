@@ -41,7 +41,7 @@ DRAG AND DROP - appending stories at the end of the list
 <img width="1440" alt="Screenshot 2022-08-09 at 4 26 25 AM" src="https://user-images.githubusercontent.com/39455997/183529785-9b6e261e-8818-4ae3-8184-3b97ad6743b5.png">
 
 DRAG AND DROP - appending stories in the middle of the list
-<img width="1440" alt="Screenshot 2022-08-09 at 4 27 00 AM" src="https://user-images.githubusercontent.com/39455997/183529861-87be4db8-7667-4804-89a6-1c05d566d3ee.png">
+![Uploading Screenshot 2022-08-09 at 4.45.45 AM.png…]()
 
 SCROLL FUNCTIONALITY
 <img width="1440" alt="Screenshot 2022-08-09 at 4 27 28 AM" src="https://user-images.githubusercontent.com/39455997/183529951-23d7157e-4d52-46d6-b942-2f953e049a5a.png">
