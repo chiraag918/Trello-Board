@@ -57,10 +57,53 @@ var containerElementsAll = document.getElementsByClassName("container__elements"
     addDragEventListener(containerElementsAll[i]);
   }
 
+//Static data
+const testData = [
+    {
+        column_id:'1',
+        content:'Test 1',
+    },
+    {
+        column_id:'2',
+        content:'Test 2',
+    },
+    {
+        column_id:'3',
+        content:'Test 3',
+    },
+];
+
+//Adding static data over appropriate column based on column_id
+function addStaticElement(container, column_id){
+
+    for(let i=0;i<testData.length;i++)
+    {
+     if(testData[i].column_id==column_id)  
+     {
+        var containerElement = document.createElement('div');
+        containerElement.classList.add('container__elements');
+        containerElement.draggable='true';
+
+        var containerContent = `
+    <textarea class="container__elements__textbox"type="text" placeholder="">${testData[i].content}</textarea>
+    <button class="container__elements__button">X</button>
+    `
+    containerElement.innerHTML = containerContent;
+    containerElement.getElementsByClassName("container__elements__button")[0].addEventListener('click',removeElement);
+    addDragEventListener(containerElement);
+
+    container.append(containerElement);
+
+     } 
+    }
+}
+
 //Adding drag over listener on containers - to know when element is dragged over a container
 var containerAll = document.getElementsByClassName("container");
  for(let i=0;i<containerAll.length;i++)
  {
+  addStaticElement(containerAll[i],i+1);
+  
   containerAll[i].addEventListener('dragover',event =>{
 
     //By default dropping an element is disabled and also when dropped cursor stays put
@@ -109,3 +152,7 @@ function getElementAfterCursor(container, y) {
   }, { offset: Number.NEGATIVE_INFINITY }).element
   //Setting the initial value of offset to as max negative number possible, to keep the offset maximum
 }
+
+
+
+
